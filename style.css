@@ -1,0 +1,36 @@
+/* Apply background color to the entire page */
+body {
+    background-color: lightblue; /* Your desired background color */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Fallback font in case the specified font isn't available */
+}
+
+/* Style the main container */
+.page {
+    background-color: lightgoldenrodyellow;
+	color: red;
+    margin: 20px; /* Adjust as needed */
+    padding: 20px; /* Adjust as needed */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply a unique font to headings */
+h1, h2 {
+    font-family: "Your-Unique-Font", sans-serif; /* Specify your unique font name */
+}
+
+/* Add border around section elements with rounded corners */
+.content {
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 10px;
+    padding: 20px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+/* Style list items inside skills section on hover */
+.skills li:hover {
+    color: black; /* Your desired hover color */
+    cursor: pointer;
+}
